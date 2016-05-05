@@ -1,38 +1,39 @@
 # NUEVA-WEB-EN-PROCESSWIRE
-Nueva página web en servidor (PW, WP)
-0.- Conectar con putty a nuestro servidor.
-
-
-
-1.- Descargar el módulo que deseamos.
+Nueva página web en servidor (PW, WP)  
+#0.- Conectar con putty a nuestro servidor.  
+#1.- Descargar el módulo que deseamos.  
 
 NOTA: En los enlaces veremos el comando wget que sirve para descargar un fichero al servidor.
 
-Todos los módulos.
+Todos los módulos.  
 
-https://bitnami.com/stack/lamp/modules
+https://bitnami.com/stack/lamp/modules  
 
-Enlace para Processwire:
+Enlace para Processwire:  
 
-wget https://bitnami.com/redirect/to/100724/bitnami-processwire-2.7.2-1-module-linux-x64-installer.run
-Enlace para Wordpress:
+wget https://bitnami.com/redirect/to/100724/bitnami-processwire-2.7.2-1-module-linux-x64-installer.run  
 
-wget https://bitnami.com/redirect/to/101272/bitnami-wordpress-4.5-1-module-linux-x64-installer.run
+Enlace para Wordpress:  
 
-
-2.- Dar permisos de ejecución al archivo anterior
-
-chmod a+x bitnami-wordpress-VERSION-module-linux-x64-installer.run
+wget https://bitnami.com/redirect/to/101272/bitnami-wordpress-4.5-1-module-linux-x64-installer.run  
 
 
-3.- Ejecutar para empezar la instalación
+#2.- Dar permisos de ejecución al archivo anterior  
 
-NOTA: 
-
-si nos pide durante la instalación un directorio que contenga una instalación de bitnami, ponemos /opt/bitnami 
-Si nos pide password de la base de datos, lo encontramos en la consola de bitnami.
-Donde pone "newbloname" ponemos el nombre de nuestra página, por ejemplo recetas
-sudo ./bitnami-wordpress-VERSION-module-linux-x64-installer.run --wordpress_instance_name newblogname
+chmod a+x bitnami-wordpress-VERSION-module-linux-x64-installer.run  
 
 
-4.- Para entrar en nuestra página ponemos nuestra dirección del servidor + /newbloname
+#3.- Ejecutar para empezar la instalación  
+
+NOTA:   
+
+si nos pide durante la instalación un directorio que contenga una instalación de bitnami, ponemos  
+/opt/bitnami   
+Si nos pide password de la base de datos, lo encontramos en la consola de bitnami.  
+
+Donde pone "newbloname" ponemos el nombre de nuestra página, por ejemplo recetas  
+
+sudo ./bitnami-wordpress-VERSION-module-linux-x64-installer.run --wordpress_instance_name newblogname  
+
+
+#4.- Para entrar en nuestra página ponemos nuestra dirección del servidor + /newbloname  
