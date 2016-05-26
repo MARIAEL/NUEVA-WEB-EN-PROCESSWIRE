@@ -53,3 +53,9 @@ $ pwd          #debemos estar en /home/bitnami
 $ wget https://raw.githubusercontent.com/manviny/EC2/master/PwScripts.sh && sudo chmod +x PwScripts.sh  && ./PwScripts.sh
 ```
 
+Luego crear la web:  
+
+```
+# Ahora podemos crear una nueva web con: sudo ./creaPW.sh seguido de nombreWeb y DBpass
+$ sudo ./creaPW.sh miweb dbpass  (dbpass es tu contraseña de bitnami)
+```  
