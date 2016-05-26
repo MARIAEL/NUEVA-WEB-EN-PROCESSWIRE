@@ -37,3 +37,19 @@ sudo ./bitnami-wordpress-VERSION-module-linux-x64-installer.run --wordpress_inst
 
 
 #4.- Para entrar en nuestra página ponemos nuestra dirección del servidor + /newbloname  
+
+
+
+#5.- REVISION  
+
+En Putty poner  
+
+```
+# Debemos asegurarnos de estar en la ruta correcta (/home/bitnami), vamos a comprobarlo
+$ cd   
+$ pwd          #debemos estar en /home/bitnami
+
+# Descargamos una sola vez el script para crear la estructura de la web y BD
+$ wget https://raw.githubusercontent.com/manviny/EC2/master/PwScripts.sh && sudo chmod +x PwScripts.sh  && ./PwScripts.sh
+```
+
